@@ -105,7 +105,7 @@ export const Header = () => {
   return (
     <div className="max-w-7xl relative mx-auto py-2 md:py-4 px-4 w-full  left-0 top-0">
       <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
-        <Image alt="logo" src={Pic} height={150} width={150} />
+        <Image alt="logo" src={Pic} height={200} width={200} />
         NeXFusion Media
         <br />
         One Stop Solution <br /> For Your Business
