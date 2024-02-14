@@ -104,12 +104,15 @@ export const HeroParallax = ({
 export const Header = () => {
   return (
     <div className="max-w-7xl relative mx-auto py-2 md:py-4 px-4 w-full  left-0 top-0">
-      <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
+      <h1 className="text-4xl md:text-7xl sm:text-5xl  font-bold dark:text-white">
         <Image alt="logo" src={Pic} height={200} width={200} />
         NeXFusion Media
         <br />
-        One Stop Solution <br /> For Your Business
       </h1>
+      <h2 className="text-xl md:text-4xl sm:text-3xl font-bold">
+        Branding Brands Brand More. <br />
+      </h2>
+
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
         We build beautiful products with the latest technologies and frameworks.
         We are a team of passionate developers and designers that love to build
