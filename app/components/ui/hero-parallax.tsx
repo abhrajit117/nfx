@@ -10,6 +10,7 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import Pic from "../../../public/main-logo.png";
+import Pic2 from "../../../public/logo-dark.png";
 export const HeroParallax = ({
   products,
 }: {
@@ -105,7 +106,20 @@ export const Header = () => {
   return (
     <div className="max-w-7xl relative mx-auto py-2 md:py-4 px-4 w-full  left-0 top-0">
       <h1 className="text-4xl md:text-7xl sm:text-5xl  font-bold dark:text-white">
-        <Image alt="logo" src={Pic} height={200} width={200} />
+        <Image
+          alt="logo"
+          src={Pic}
+          height={200}
+          width={200}
+          className=" hidden dark:block"
+        />
+        <Image
+          alt="logo"
+          src={Pic2}
+          height={200}
+          width={200}
+          className=" dark:hidden"
+        />
         NeXFusion Media
         <br />
       </h1>
